@@ -1,5 +1,5 @@
 # Web-Page-Update-Notifier
-Using RxJava a small system is built to notify people ( via text message or email ) when web pages have been updated. 
+Using RxJava a small system is built to notify people ( via text message or email ) when web pages have been updated using Observer pattern. 
 
 You are to support three ways to notify a person that a page has changed. First just text sent to
 standard out (console). Second sending an email. Third sending a text message. Your program
