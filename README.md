@@ -1,12 +1,11 @@
 # Web-Page-Update-Notifier
 Using RxJava a small system is built to notify people ( via text message or email ) when web pages have been updated using Observer pattern. 
 
-You are to support three ways to notify a person that a page has changed. First just text sent to
-standard out (console). Second sending an email. Third sending a text message. Your program
-should read a file containing a list of URL of webpages. Each url starts a new line in the file.
-Each URL is followed by a space then the type of output (console, email, sms). If it is an email
-then we need the email address. If an sms we need two pieces of information: 10 digit phone
-number and name of the cell provider. Each piece of information is separated by a space.
+A person can be notified in 3 ways that a page has changed - 
+First just text sent to standard out (console). 
+Second sending an email. Third sending a text message. Program reads a file containing a list of URL of webpages. Each url starts a new line in the file. Each URL is followed by a space then the type of output (console, email, sms). If it is an email
+then we need the email address. 
+Third sms we need two pieces of information: 10 digit phone number and name of the cell provider. Each piece of information is separated by a space.
 
 Some examples:
 http://www.eli.sdsu.edu/courses/fall18/cs635/notes/index.html console
